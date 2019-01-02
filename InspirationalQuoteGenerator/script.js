@@ -12,8 +12,8 @@ let quotes = ["It's not whether you get knocked down. It's whether you get up. -
 			];
 
 
-//pick random name from the names array and display it in the 'bigBox' div
-function showRandomName(){
+//pick random quote from the quotes array and display it in the 'bigBox' div
+function showRandomQuote(){
 	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 	const display = document.querySelector('#middleBox');
 	display.innerHTML = quote;
@@ -24,6 +24,6 @@ function showRandomName(){
 //add event listener to the document but only run function if target of click has class 'showName'
 document.addEventListener('click', function(e){
 	if(e.target.classList.contains('show_quote')){
-		showRandomName(e);
+		showRandomQuote(e);
 	}
-})
+});
