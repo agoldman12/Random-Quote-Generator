@@ -12,7 +12,7 @@ let quotes = ["It's not whether you get knocked down. It's whether you get up. -
 			];
 
 
-//pick random quote from the quotes array and display it in the 'bigBox' div
+//pick random quote from the quotes array and display it in the 'middleBox' div
 function showRandomQuote(){
 	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 	const display = document.querySelector('#middleBox');
