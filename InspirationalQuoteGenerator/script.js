@@ -21,7 +21,7 @@ function showRandomQuote(){
 
 
 
-//add event listener to the document but only run function if target of click has class 'showName'
+//add event listener to the document but only run function if target of click has class 'show_quote'
 document.addEventListener('click', function(e){
 	if(e.target.classList.contains('show_quote')){
 		showRandomQuote(e);
