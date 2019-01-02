@@ -1,0 +1,81 @@
+html {
+    background: url(img/inspire_bkgrd2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper{
+    /*border: 1px solid black;*/
+    height:auto;
+    margin: 45px auto;
+    width: 85%;
+}
+#topBox{
+    /*border: 1px solid blue;*/
+    height: 100px;
+    margin: 0 auto;
+    width: 52%;
+    border-bottom: 2px solid #ffffff;
+}
+    #topBox h1{
+        margin: 0 auto;
+        width: 60%;
+        color: #ffffff;
+        text-shadow: 3px 3px 3px #411602;
+        text-shadow: 3px 3px 3px #370B06;
+    }
+#middleBox{
+    /*border: 1px solid red;*/
+    height: 200px;
+    margin: 0 auto;
+    width: 52%;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #283052;
+    font-size: 35px;
+    padding: 90px 0 0;
+}
+#bottomBox{
+    /*border: 1px solid orange;*/
+    height: 100px;
+    margin: 0 auto;
+    width: 85%;
+}
+.btn{
+    margin: 30px 41%;
+    width: 185px;
+    background: none;
+    color: #ffffff;
+    padding: 7px;
+    border: 1px solid #ffffff;
+}
+
+
+
+@media screen and (orientation: portrait){
+        #topBox h1 {
+            margin: 30% -140px 0;
+            width: 165%;
+            font-size: 60px;
+        }
+        #middleBox{
+            font-size: 70px;
+            padding: 40px 0 0;
+            width: 81%;
+            height: 660px;
+        }
+        #bottomBox {
+            height: auto;
+            margin: 50px auto 0;
+            
+        }
+        .btn {
+            font-size: 35px;
+            margin: 30px 23%;
+            width: 411px;
+        } 
+}
+
+
+
